@@ -7,12 +7,16 @@ Como Entregar esse projeto?
 5. Compartilhe conosco o link desse repositório através do botão 'entregar projeto'
 
 6. Passo-a-Passo
+7. 
 https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html
+
 https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/02-content-safety.html
 
 No passo "URL da Web", informei a URL https://aka.ms/bike-rentals do conjunto de dados. 
 
-Todas as vezes que tentei com a url fornecida acima deu erro e tive de reiniciar, então achei nesse git https://github.com/casjunior93/Projeto-DIO---Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML/blob/main/README.md uma url alternativa, usei essa URL: https://raw.githubusercontent.com/MicrosoftLearning/mslearn-ai-fundamentals/main/data/ml/daily-bike-share.csv  e continuei seguindo as instruções da url:
+Todas as vezes que tentei com a url fornecida acima deu erro e tive de reiniciar, então achei nesse git 
+https://github.com/casjunior93/Projeto-DIO---Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML/blob/main/README.md  uma url alternativa, usei essa URL: https://raw.githubusercontent.com/MicrosoftLearning/mslearn-ai-fundamentals/main/data/ml/daily-bike-share.csv  
+e continuei seguindo as instruções da url:
 https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html
 
 teste.json
