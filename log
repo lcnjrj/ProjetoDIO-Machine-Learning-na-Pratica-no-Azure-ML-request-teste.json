@@ -1,0 +1,347 @@
+2024-02-21T01:27:37,155076300+00:00 - rsyslog/run 
+2024-02-21T01:27:37,163663900+00:00 - gunicorn/run 
+2024-02-21T01:27:37,166813900+00:00 | gunicorn/run | 
+2024-02-21T01:27:37,171658300+00:00 | gunicorn/run | ###############################################
+2024-02-21T01:27:37,174517200+00:00 | gunicorn/run | AzureML Container Runtime Information
+2024-02-21T01:27:37,177291800+00:00 | gunicorn/run | ###############################################
+2024-02-21T01:27:37,179939700+00:00 | gunicorn/run | 
+2024-02-21T01:27:37,184868200+00:00 - nginx/run 
+2024-02-21T01:27:37,193943400+00:00 | gunicorn/run | 
+2024-02-21T01:27:37,209511000+00:00 | gunicorn/run | AzureML image information: openmpi4.1.0-ubuntu20.04, Materializaton Build:20231216.v3
+2024-02-21T01:27:37,219716600+00:00 | gunicorn/run | 
+2024-02-21T01:27:37,225741000+00:00 | gunicorn/run | 
+2024-02-21T01:27:37,227502500+00:00 | gunicorn/run | PATH environment variable: /azureml-envs/azureml-automl/bin:/opt/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+2024-02-21T01:27:37,229040900+00:00 | gunicorn/run | PYTHONPATH environment variable: 
+2024-02-21T01:27:37,233563700+00:00 | gunicorn/run | 
+2024-02-21T01:27:38,615912900+00:00 | gunicorn/run | CONDAPATH environment variable: /opt/miniconda
+
+# conda environments:
+#
+                         /azureml-envs/azureml-automl
+base                     /opt/miniconda
+
+2024-02-21T01:27:39,690224200+00:00 | gunicorn/run | 
+2024-02-21T01:27:39,695772900+00:00 | gunicorn/run | Pip Dependencies (before dynamic installation)
+
+adal==1.2.7
+anyio==4.2.0
+applicationinsights==0.11.10
+arch==5.3.1
+argcomplete==3.2.1
+asttokens==2.4.1
+attrs==23.1.0
+azure-common==1.1.28
+azure-core==1.29.6
+azure-graphrbac==0.61.1
+azure-identity==1.15.0
+azure-mgmt-authorization==4.0.0
+azure-mgmt-containerregistry==10.3.0
+azure-mgmt-core==1.4.0
+azure-mgmt-keyvault==10.3.0
+azure-mgmt-network==25.1.0
+azure-mgmt-resource==23.0.1
+azure-mgmt-storage==21.1.0
+azure-storage-blob==12.19.0
+azure-storage-queue==12.9.0
+azureml-automl-core==1.54.0
+azureml-automl-runtime==1.54.0
+azureml-core==1.54.0.post1
+azureml-dataprep==4.12.8
+azureml-dataprep-native==38.0.0
+azureml-dataprep-rslex==2.19.6
+azureml-dataset-runtime==1.54.0.post1
+azureml-defaults==1.54.0
+azureml-inference-server-http==0.8.4.2
+azureml-interpret==1.54.0
+azureml-mlflow==1.54.0.post1
+azureml-pipeline-core==1.54.0
+azureml-responsibleai==1.54.0
+azureml-telemetry==1.54.0
+azureml-train-automl-client==1.54.0.post1
+azureml-train-automl-runtime==1.54.0.post1
+azureml-train-core==1.54.0
+azureml-train-restclients-hyperdrive==1.54.0
+azureml-training-tabular==1.54.0
+backcall==0.2.0
+backports.tempfile==1.0
+backports.weakref==1.0.post1
+bcrypt==4.1.2
+bokeh==2.4.3
+boto==2.49.0
+boto3==1.20.19
+botocore==1.23.19
+Bottleneck @ file:///home/conda/feedstock_root/build_artifacts/bottleneck_1696017999103/work
+Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_1695989787169/work
+cachetools==5.3.2
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1700303426725/work/certifi
+cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1696001773319/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1698833585322/work
+click==8.1.7
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1598400192773/work
+cmdstanpy==1.2.0
+coloredlogs==15.0.1
+contextlib2==21.6.0
+contourpy==1.1.1
+convertdate==2.4.0
+cryptography @ file:///home/conda/feedstock_root/build_artifacts/cryptography-split_1701563203981/work
+cycler==0.12.1
+Cython==3.0.6
+dask==2023.2.0
+databricks-cli==0.18.0
+dataclasses==0.6
+debugpy==1.8.0
+decorator==5.1.1
+dice-ml==0.9
+dill==0.3.7
+distributed==2023.2.0
+distro==1.8.0
+docker==6.1.3
+dotnetcore2==3.1.23
+econml==0.14.1
+entrypoints==0.4
+ephem==4.1.5
+erroranalysis==0.5.2
+exceptiongroup==1.2.0
+executing==2.0.1
+fairlearn==0.7.0
+fire==0.5.0
+Flask==2.2.5
+Flask-Cors==3.0.10
+flatbuffers==23.5.26
+fonttools==4.47.0
+fsspec==2023.12.2
+fusepy==3.0.1
+gensim==3.8.3
+gitdb==4.0.11
+GitPython==3.1.40
+google-api-core==2.15.0
+google-auth==2.25.2
+googleapis-common-protos==1.62.0
+gunicorn==20.1.0
+h5py==3.10.0
+holidays @ file:///home/conda/feedstock_root/build_artifacts/holidays_1689631177263/work
+humanfriendly==10.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1701026962277/work
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+inference-schema==1.7
+interpret-community==0.30.0
+interpret-core==0.4.3
+ipykernel==6.8.0
+ipython==8.12.3
+isodate==0.6.1
+itsdangerous==2.1.2
+jedi==0.19.1
+jeepney==0.8.0
+Jinja2==3.1.2
+jmespath==0.10.0
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1663332044897/work
+jsonpickle==3.0.2
+jsonschema==4.20.0
+jsonschema-specifications==2023.11.2
+jupyter_client==7.4.9
+jupyter_core==5.5.1
+keras2onnx==1.6.0
+kiwisolver==1.4.5
+knack==0.11.0
+lightgbm==3.2.1
+llvmlite==0.38.1
+locket==1.0.0
+LunarCalendar==0.0.9
+MarkupSafe==2.1.2
+matplotlib==3.7.4
+matplotlib-inline==0.1.6
+ml-wrappers==0.5.3
+mlflow-skinny==2.9.2
+mltable==1.5.0
+mpmath==1.3.0
+msal==1.26.0
+msal-extensions==1.0.0
+msgpack==1.0.7
+msrest==0.7.1
+msrestazure==0.6.4
+ndg-httpsclient==0.5.1
+nest-asyncio==1.5.8
+networkx==2.5
+numba==0.55.2
+numexpr @ file:///home/conda/feedstock_root/build_artifacts/numexpr_1689950431905/work
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1653325300596/work
+oauthlib==3.2.2
+onnx==1.14.1
+onnxconverter-common==1.13.0
+onnxmltools==1.11.2
+onnxruntime==1.14.1
+opencensus==0.11.3
+opencensus-context==0.1.3
+opencensus-ext-azure==1.1.12
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1696202382185/work
+pandas==1.3.5
+paramiko==3.4.0
+parso==0.8.3
+partd==1.4.1
+pathspec==0.12.1
+patsy==0.5.4
+pexpect==4.9.0
+pickleshare==0.7.5
+Pillow==10.1.0
+pkginfo==1.9.6
+pkgutil_resolve_name==1.3.10
+platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1701708255999/work
+pmdarima==1.8.5
+pooch @ file:///home/conda/feedstock_root/build_artifacts/pooch_1698245576425/work
+portalocker==2.8.2
+prompt-toolkit==3.0.43
+property-cached==1.6.4
+prophet==1.1.4
+protobuf==3.20.3
+psutil==5.9.3
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==5.0.0
+pyarrow==11.0.0
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
+pydantic==1.10.13
+Pygments==2.17.2
+PyJWT==2.8.0
+PyMeeus==0.5.12
+PyNaCl==1.5.0
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1685514481738/work
+pyparsing==3.1.1
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1693930252784/work
+PyYAML==6.0.1
+pyzmq==25.1.2
+raiutils==0.4.1
+referencing==0.32.0
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1684774241324/work
+requests-oauthlib==1.3.1
+responsibleai==0.28.0
+rpds-py==0.15.2
+rsa==4.9
+s3transfer==0.5.2
+scikit-learn==1.0.2
+scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy-split_1683900206454/work/base/dist/scipy-1.10.1-cp38-cp38-linux_x86_64.whl#sha256=13ab5c17dedeb97a65ba90de1c51475f2d3ae0fe50bc43e9b018cc2943541de4
+SecretStorage==3.3.3
+semver==2.13.0
+setuptools-git==1.2
+shap==0.41.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+skl2onnx==1.14.1
+sklearn-pandas==1.7.0
+slicer==0.0.7
+smart-open==1.9.0
+smmap==5.0.1
+sniffio==1.3.0
+sortedcontainers==2.4.0
+sparse==0.14.0
+sqlparse==0.4.4
+stack-data==0.6.3
+stanio==0.3.0
+statsmodels==0.13.5
+sympy==1.12
+tabulate==0.9.0
+tblib==3.0.0
+termcolor==2.4.0
+threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1689261241048/work
+toolz==0.12.0
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+typing_extensions==4.9.0
+urllib3==1.26.18
+wcwidth==0.2.12
+websocket-client==1.7.0
+Werkzeug==3.0.1
+wrapt==1.12.1
+xgboost==1.3.3
+zict==3.0.0
+zipp==3.17.0
+
+2024-02-21T01:27:41,850212866+00:00 | gunicorn/run | 
+2024-02-21T01:27:41,855087666+00:00 | gunicorn/run | Entry script directory: /var/azureml-app
+2024-02-21T01:27:41,860465066+00:00 | gunicorn/run | 
+2024-02-21T01:27:41,862980165+00:00 | gunicorn/run | ###############################################
+2024-02-21T01:27:41,864703065+00:00 | gunicorn/run | Dynamic Python Package Installation
+2024-02-21T01:27:41,866318365+00:00 | gunicorn/run | ###############################################
+2024-02-21T01:27:41,871335365+00:00 | gunicorn/run | 
+2024-02-21T01:27:41,873689265+00:00 | gunicorn/run | Dynamic Python package installation is disabled.
+2024-02-21T01:27:41,875931665+00:00 | gunicorn/run | 
+2024-02-21T01:27:41,878959265+00:00 | gunicorn/run | ###############################################
+2024-02-21T01:27:41,882124664+00:00 | gunicorn/run | Checking if the Python package azureml-inference-server-http is installed
+2024-02-21T01:27:41,884994664+00:00 | gunicorn/run | ###############################################
+2024-02-21T01:27:41,887581964+00:00 | gunicorn/run | 
+2024-02-21T01:27:44,622723030+00:00 | gunicorn/run | 
+2024-02-21T01:27:44,624810130+00:00 | gunicorn/run | ###############################################
+2024-02-21T01:27:44,626857130+00:00 | gunicorn/run | AzureML Inference Server
+2024-02-21T01:27:44,628691930+00:00 | gunicorn/run | ###############################################
+2024-02-21T01:27:44,630548130+00:00 | gunicorn/run | 
+2024-02-21T01:27:44,632903930+00:00 | gunicorn/run | Starting AzureML Inference Server HTTP.
+2024-02-21 01:27:44,993 I [70] azmlinfsrv - Loaded logging config from /azureml-envs/azureml-automl/lib/python3.8/site-packages/azureml_inference_server_http/logging.json
+2024-02-21 01:27:45,331 I [70] gunicorn.error - Starting gunicorn 20.1.0
+2024-02-21 01:27:45,334 I [70] gunicorn.error - Listening at: http://0.0.0.0:31311 (70)
+2024-02-21 01:27:45,336 I [70] gunicorn.error - Using worker: sync
+2024-02-21 01:27:45,346 I [129] gunicorn.error - Booting worker with pid: 129
+
+Azure ML Inferencing HTTP server v0.8.4.2
+
+
+Server Settings
+---------------
+Entry Script Name: /var/azureml-app/main.py
+Model Directory: /var/azureml-app/azureml-models/mslearnbikeauto2/1
+Config File: None
+Worker Count: 1
+Worker Timeout (seconds): 300
+Server Port: 31311
+Health Port: 31311
+Application Insights Enabled: false
+Application Insights Key: None
+Inferencing HTTP server version: azmlinfsrv/0.8.4.2
+CORS for the specified origins: None
+Create dedicated endpoint for health: None
+
+
+Server Routes
+---------------
+Liveness Probe: GET   127.0.0.1:31311/
+Score:          POST  127.0.0.1:31311/score
+
+2024-02-21 01:27:46,703 I [129] azmlinfsrv - AML_FLASK_ONE_COMPATIBILITY is set. Patched Flask to ensure compatibility with Flask 1.
+Initializing logger
+2024-02-21 01:27:46,706 I [129] azmlinfsrv - Starting up app insights client
+2024-02-21 01:27:48,291 I [129] azmlinfsrv.user_script - Found user script at /var/azureml-app/main.py
+2024-02-21 01:27:48,291 I [129] azmlinfsrv.user_script - run() is decorated with @input_schema. Server will invoke it with the following arguments: Inputs, GlobalParameters.
+2024-02-21 01:27:48,291 I [129] azmlinfsrv.user_script - Invoking user's init function
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+2024-02-21 01:28:01,839 I [129] azmlinfsrv.user_script - Users's init has completed successfully
+2024-02-21 01:28:01,842 I [129] azmlinfsrv.swagger - Swaggers are prepared for the following versions: [2, 3, 3.1].
+2024-02-21 01:28:01,843 I [129] azmlinfsrv - Scoring timeout is set to 60000
+2024-02-21 01:28:01,843 I [129] azmlinfsrv - Worker with pid 129 ready for serving traffic
+2024-02-21 01:28:01,849 I [129] gunicorn.access - 127.0.0.1 - - [21/Feb/2024:01:28:01 +0000] "GET / HTTP/1.0" 200 7 "-" "curl/7.58.0"
+2024-02-21 01:28:01,853 I [129] gunicorn.access - 127.0.0.1 - - [21/Feb/2024:01:28:01 +0000] "GET / HTTP/1.0" 200 7 "-" "curl/7.58.0"
+2024-02-21 01:28:09,020 W [129] azmlinfsrv - x-ms-request-id header has been deprecated and will be removed from future versions of the server. Please use x-ms-client-request-id.
+2024-02-21 01:28:09,021 I [129] gunicorn.access - 127.0.0.1 - - [21/Feb/2024:01:28:09 +0000] "GET / HTTP/1.0" 200 7 "-" "Go-http-client/1.1"
+2024-02-21 01:28:09,034 W [129] azmlinfsrv - x-ms-request-id header has been deprecated and will be removed from future versions of the server. Please use x-ms-client-request-id.
+2024-02-21 01:28:09,036 I [129] azmlinfsrv - GET /swagger.json 200 1.341ms 3568
+2024-02-21 01:28:09,039 I [129] gunicorn.access - 127.0.0.1 - - [21/Feb/2024:01:28:09 +0000] "GET /swagger.json HTTP/1.0" 200 3568 "-" "Go-http-client/1.1"
+2024-02-21 02:06:08,749 W [129] azmlinfsrv - x-ms-request-id header has been deprecated and will be removed from future versions of the server. Please use x-ms-client-request-id.
+2024-02-21 02:06:08,751 I [129] gunicorn.access - 127.0.0.1 - - [21/Feb/2024:02:06:08 +0000] "GET / HTTP/1.0" 200 7 "-" "Go-http-client/1.1"
+2024-02-21 02:25:27,129 W [129] azmlinfsrv - x-ms-request-id header has been deprecated and will be removed from future versions of the server. Please use x-ms-client-request-id.
+2024-02-21 02:25:27,132 I [129] gunicorn.access - 127.0.0.1 - - [21/Feb/2024:02:25:27 +0000] "GET / HTTP/1.0" 200 7 "-" "Go-http-client/1.1"
+2024-02-21 02:40:29,950 W [129] azmlinfsrv - x-ms-request-id header has been deprecated and will be removed from future versions of the server. Please use x-ms-client-request-id.
+2024-02-21 02:40:29,954 I [129] gunicorn.access - 127.0.0.1 - - [21/Feb/2024:02:40:29 +0000] "GET / HTTP/1.0" 200 7 "-" "Go-http-client/1.1"
+2024-02-21 02:40:29,963 W [129] azmlinfsrv - x-ms-request-id header has been deprecated and will be removed from future versions of the server. Please use x-ms-client-request-id.
+2024-02-21 02:40:29,964 I [129] azmlinfsrv - GET /swagger.json 200 0.850ms 3568
+2024-02-21 02:40:29,964 I [129] gunicorn.access - 127.0.0.1 - - [21/Feb/2024:02:40:29 +0000] "GET /swagger.json HTTP/1.0" 200 3568 "-" "Go-http-client/1.1"
+2024-02-21 02:41:00,006 W [129] azmlinfsrv - x-ms-request-id header has been deprecated and will be removed from future versions of the server. Please use x-ms-client-request-id.
+2024-02-21 02:41:00,007 I [129] azmlinfsrv - GET /swagger.json 200 1.211ms 3568
+2024-02-21 02:41:00,009 I [129] gunicorn.access - 127.0.0.1 - - [21/Feb/2024:02:41:00 +0000] "GET /swagger.json HTTP/1.0" 200 3568 "-" "Go-http-client/1.1"
+2024-02-21 02:41:29,303 W [129] azmlinfsrv - x-ms-request-id header has been deprecated and will be removed from future versions of the server. Please use x-ms-client-request-id.
+2024-02-21 02:41:29,420 I [129] azmlinfsrv - POST /score?verbose=true 200 117.784ms 32
+2024-02-21 02:41:29,422 I [129] gunicorn.access - 127.0.0.1 - - [21/Feb/2024:02:41:29 +0000] "POST /score?verbose=true HTTP/1.0" 200 32 "-" "Go-http-client/1.1"
+2024-02-21 02:41:44,567 W [129] azmlinfsrv - x-ms-request-id header has been deprecated and will be removed from future versions of the server. Please use x-ms-client-request-id.
+2024-02-21 02:41:44,568 I [129] azmlinfsrv - GET /swagger.json 200 1.243ms 3568
+2024-02-21 02:41:44,570 I [129] gunicorn.access - 127.0.0.1 - - [21/Feb/2024:02:41:44 +0000] "GET /swagger.json HTTP/1.0" 200 3568 "-" "Go-http-client/1.1"
